@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css?family=Old Standard TT");
+@import url("https://fonts.googleapis.com/css?family=Cabin");
+
+body{
+  background: #000000;
+}
+
+#top {
+  background:#003f95;
+}
+
+#top a{
+  font-size:20px;
+  display: inline-block;
+  background:#003f95;
+  color:#fff;
+  padding: 10px ;
+  text-decoration: none;
+}
+
+#top a:hover{
+  background: #fff;
+  color:#000;
+}
+
+#top a:active{
+  background:#c8c8c8;
+}
+
+#Sinopsis{
+  background:#fff;
+  height:150px;
+}
+
+#Sinopsis .section_title{
+  font-size:30px;
+  background:#003f95;
+  color:#fff;
+  font-family: 'Cabin';
+}
+
+#Sinopsis .section_text{
+  font-family: 'Old Standard TT';
+  font-size: 20px;
+  color:#000;
+}
+
+#Necesidades{
+  background:#fff;
+}
+/*contenido textos*/
+#Necesidades .need{
+  width: 540px;
+  display: block;
+  float: left;
+  text-align: center;
+  border-right: 5px white;
+  background:#fff;
+  font-size: 20px;
+  font-family: 'Old Standard TT';
+}
+
+#Necesidades .section_title{
+  font-size: 30px;
+  background:#003f95;
+  color:#fff;
+  font-family: 'Cabin';
+}
+
+#Necesidades .section_text{
+  font-size: 20px;
+  font-family: 'Old Standard TT';
+}
+
+#Necesidades img{
+  width: 375px; height: 225px;
+}
+/*titulos dentro de necesidades*/
+.need h3{
+  background:#003f95;
+  font-size:25px;
+  border:1px solid white;
+  line-height: 3;
+  text-indent: 5em;
+  color:#fff;
+  font-family: 'Cabin';
+}
+
+#Tecnologias .subsection{
+  width:800px;
+  display: block;
+  float: left;
+  text-align: center;
+}
+
+#Tecnologias{
+  background:#fff;
+}
+
+#Tecnologias .section_title{
+  font-size: 30px;
+  background:#003f95;
+  color:#fff;
+  font-family: 'Cabin';
+}
+
+#Tecnologias .subsection_title,p{
+  clear: both;
+  padding-left: 10px;
+  border:1px solid white;
+  font-family:'Old Standard TT';
+  font-size: 20px;
+}
+
+#Tecnologias .subsection_title{
+  font-size: 25px;
+  background:#003f95;
+  font-family: 'Cabin';  color:#fff;
+}
+
+#Impacto{
+  background:#fff;
+}
+
+#Impacto .section_title{
+  font-size: 30px;
+  background:#003f95;
+  color:#fff;
+  font-family: 'Cabin';
+}
+
+#Impacto .section_text{
+  font-size: 20px;
+  font-family: 'Old Standard TT';
+}
+
+#Referencias{
+  background:#fff;
+  text-align: center;
+  font-size: 15px;
+  font-family: 'Old Standar TT';
+}
+
+#Referencias .section_title{
+  font-size: 25px;
+  background:#003f95;
+  color:#fff;
+  text-align: center;
+  font-family: 'Cabin';
+}
+
+.referencias a:link{
+  color:blue;
+  text-decoration:none;
+}
+
+.referencias a:visited{
+  color:#000;
+}
+
+.referencias a:hover{
+  text-decoration:underline;
+  background:#003f95;
+  color:#fff;
+}
+
+.referencias a:active{
+  background:#000;
+}
